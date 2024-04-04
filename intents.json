@@ -1,0 +1,432 @@
+{
+  "intents": [
+    {
+      "mytag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Greetings",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whatsup"
+      ],
+      "responses": [
+        "Hello! How can I help you  today?",
+        "Hello! there!?",
+        "Hello! How can I assist you  today?",
+        "Hi! How can I assist you  today?",
+        "Hello! How can I assist you  today?",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "mytag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ]
+    },
+    {
+      "mytag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "College students",
+        "Machakos university students",
+        "Compuer science students"
+      ]
+    },
+    {
+      "mytag": "name",
+      "patterns": [
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "I'm All time assistant",
+        "I am a customer care Chatbot.",
+        "I am your helper"
+      ]
+    },
+    {
+      "mytag": "hours",
+      "patterns": [
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on saturday",
+        "tell something about college timing",
+        "what is the college  hours",
+        "when should i come to college",
+        "when should i attend college",
+        "what is my college time",
+        "college timing",
+        "timing college"
+      ],
+      "responses": [
+        "College is open 8am-5pm Monday-Saturday!"
+      ]
+    },
+    {
+      "mytag": "number",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can i contact you",
+        "Can i get your phone number",
+        "how can i call you",
+        "phone number",
+        "phone no",
+        "call",
+        "contact info",
+        "call"
+      ],
+      "responses": [
+        "You can contact at: 0716216730",
+        "You can visit the school website, mksu.co.ke",
+        "You can contact at: 0712345678"
+      ]
+    },
+    {
+      "mytag": "course",
+      "patterns": [
+        "list of courses",
+        "list of courses offered",
+        "list of courses offered in",
+        "what are the courses offered in your college?",
+        "courses?",
+        "courses offered",
+        "courses offered in Machakos university",
+        "courses you offer",
+        "branches?",
+        "courses available at Machakos university",
+        "branches available at your college?",
+        "what are the courses in Machakos university",
+        "what are branches in Machakos university",
+        "what are courses in Machakos university",
+        "branches available in Machakos university",
+        "can you tell me the courses available in Machakos university",
+        "can you tell me the branches available in Machakos university"
+      ],
+      "responses": [
+        "computer engineering?",
+        "computer",
+        "Computer engineering?",
+        "it",
+        "IT",
+        "Information Technology",
+        "AI/Ml",
+        "Mechanical engineering",
+        "Chemical engineering",
+        "Civil engineering",
+        "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+      ]
+    },
+    {
+      "mytag": "fees",
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "college fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "What is the fees of hostel",
+        "how much is the fees",
+        "hostel fees"
+      ],
+      "responses": [
+        "For Fee detail visit <a target=\"_blank\" href=\"https://mksu.ac.ke\"> here</a>"
+      ]
+    },
+    {
+      "mytag": "location",
+      "patterns": [
+        "where is the university located",
+        "university is located at",
+        "where is university located",
+        "address of university",
+        "how to reach university",
+        "university location",
+        "university address",
+        "wheres the university",
+        "how can I reach university",
+        "whats is the university address",
+        "what is the address of university",
+        "address",
+        "location"
+      ],
+      "responses": [
+        "<a target=\"_blank\" href=\"https://mksu.ac.ke\"> here</a>",
+        "Machakos county"
+      ]
+    },
+    {
+      "mytag": "hostel",
+      "patterns": [
+        "hostel facility",
+        "hostel servive",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "hostel fees",
+        "Does university provide hostel",
+        "Is there any hostel",
+        "Where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "what is the hostel fee",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from university",
+        "hostel university distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between university and hostel",
+        "distance between hostel and university"
+      ],
+      "responses": [
+        "For hostel detail visit <a target=\"_blank\" href=\"https://mksu.ac.ke\"> here</a>"
+      ]
+    },
+    {
+      "mytag": "event",
+      "patterns": [
+        "events organised",
+        "list of events",
+        "list of events organised in college",
+        "list of events conducted in college",
+        "What events are conducted in college",
+        "Are there any event held at college",
+        "Events?",
+        "functions",
+        "what are the events",
+        "tell me about events",
+        "what about events"
+      ],
+      "responses": [
+        "For event detail visit <a target=\"_blank\" href=\"https://mksu.ac.ke\"> here</a>"
+      ]
+    },
+    {
+      "mytag": "document",
+      "patterns": [
+        "document to bring",
+        "documents needed for admision",
+        "documents needed at the time of admission",
+        "documents needed during admission",
+        "documents required for admision",
+        "documents required at the time of admission",
+        "documents required during admission",
+        "What document are required for admission",
+        "Which document to bring for admission",
+        "documents",
+        "what documents do i need",
+        "what documents do I need for admission",
+        "documents needed"
+      ],
+      "responses": [
+        "To know more about document required visit <a target=\"_blank\" href=\"https://mksu.ac.ke\"> here</a>"
+      ]
+    },
+    {
+      "mytag": "syllabus",
+      "patterns": [
+        "Syllabus for IT",
+        "what is the Information Technology syllabus",
+        "syllabus",
+        "timetable",
+        "what is IT syllabus",
+        "syllabus",
+        "What is next lecture"
+      ],
+      "responses": [
+        "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      ]
+    },
+    {
+      "mytag": "library",
+      "patterns": [
+        "is there any library",
+        "library facility",
+        "library facilities",
+        "do you have library",
+        "does the college have library facility",
+        "college library",
+        "where can i get books",
+        "book facility",
+        "Where is library",
+        "Library",
+        "Library information",
+        "Library books information",
+        "Tell me about library",
+        "how many libraries"
+      ],
+      "responses": [
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      ]
+    },
+    {
+      "mytag": "infrastructure",
+      "patterns": [
+        "how is college infrastructure",
+        "infrastructure",
+        "college infrastructure",
+        "how is the collage infrastructure"
+      ],
+      "responses": [
+        "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+      ]
+    },
+    {
+      "mytag": "crop_market_analysis",
+      "patterns": [
+        "hi",
+        "how are you",
+        "bye",
+        "help",
+        "admission",
+        "programs",
+        "location",
+        "hostel",
+        "document",
+        "floors",
+        "syllabus",
+        "library",
+        "infrastructure",
+        "canteen",
+        "placement",
+        "ithod",
+        "CIT",
+        "extchod",
+        "University  Chancellor",
+        "sem",
+        "admission",
+        "scholarship",
+        "facilities",
+        "university intake",
+        "uniform",
+        "committee",
+        "random",
+        "swear",
+        "vacation",
+        "sports",
+        "salutaion",
+        "task",
+        "ragging",
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "more info"
+      ],
+      "responses": [
+        "Hello! Welcome to Machakos University customer service. How can I assist you today?",
+        "I'm an AI assistant, and I'm here to help you with any inquiries or concerns related to Machakos University.",
+        "Thank you for contacting Machakos University customer service. Have a great day!",
+        "Sure, I can help you with a wide range of topics related to Machakos University, such as admission process, programs offered, tuition fees, campus facilities, and more. What specific information are you looking for?",
+        "For admission-related inquiries, you can find information on our website at <a href='http://www.mksu.ac.ke' target='_blank'>www.mksu.ac.ke/admissions</a>. You can also email our admissions office at admissions@machakosuniversity.ac.ke or call us at +254 123 456 789.",
+        "Machakos University offers a variety of undergraduate and graduate programs in fields such as business, engineering, arts and sciences, education, and more. You can find a complete list of our programs on our website at <a href='http://www.mksu.ac.ke' target='_blank'>www.mksu.ac.ke/academics/programs</a>.",
+        "For Fee detail visit www.ksu.ac.ke",
+        "www.ksu.ac.ke",
+        "For hostel detail visit www.ksu.ac.ke",
+        "To know more about document required visit www.ksu.ac.ke",
+        "has total 2 floors ",
+        "Timetable provide direct to the students OR To know about syllabus visit www.ksu.ac.ke",
+        "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a href='http://www.mksu.ac.ke' target='_blank'>www.mksu.ac.ke</a>",
+        "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection",
+        "Our university has canteen with variety of food available",
+        "we serve Ugali, rice, Chapati, Tea, Coffee, Soda and many more on menu",
+        "To know about placement visit www.mksu.ac.ke",
+        "All engineering departments have different HOD'S ",
+        "All engineering departments have only one HOD but particularly for CIT (DR.Omuya)",
+        "Different school wise hod are different.So be more clear with your school or department",
+        " Prof.Agallo is  University  Chancellor and if you need any help then call your branch hod first.That is more appropriate",
+        "Here is the Academic Calendar www.mksu.ac.ke",
+        "Application can also be submitted online through the Unversity's www.mksu.ac.ke",
+        "Many government scholarships are supported by our university. For details and updates visit www.ksu.ac.ke",
+        "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen",
+        "For IT, Computer and extc 60 per branch and seat may be differ for different department.",
+        "No particular dress code",
+        "For the various committe in university contact this number: 0712345678",
+        "I am not program for this, please ask appropriate query",
+        "please use appropriate language",
+        "Academic calender is given to you by your class-soordinators after you join your respective classes",
+        "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visitwww.ksu.ac.ke",
+        "I am glad I helped you",
+        "I can answer to low-intermediate questions regarding university",
+        "We are Proud to tell you that our university provides ragging free environment, and we have strict rules against ragging",
+        "HODs differ for each branch, please be more specific like: (HOD it)",
+        "Comp science 2.2 students",
+        "You can contact at: 0712345678"
+      ]
+    }
+  ]
+}
